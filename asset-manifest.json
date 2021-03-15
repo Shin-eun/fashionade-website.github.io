@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/fashionade-website.github.io/static/css/main.7a1800b4.chunk.css",
+    "main.js": "/fashionade-website.github.io/static/js/main.0598f88f.chunk.js",
+    "main.js.map": "/fashionade-website.github.io/static/js/main.0598f88f.chunk.js.map",
+    "runtime-main.js": "/fashionade-website.github.io/static/js/runtime-main.3d29fa8f.js",
+    "runtime-main.js.map": "/fashionade-website.github.io/static/js/runtime-main.3d29fa8f.js.map",
+    "static/js/2.7a0fefae.chunk.js": "/fashionade-website.github.io/static/js/2.7a0fefae.chunk.js",
+    "static/js/2.7a0fefae.chunk.js.map": "/fashionade-website.github.io/static/js/2.7a0fefae.chunk.js.map",
+    "index.html": "/fashionade-website.github.io/index.html",
+    "static/css/main.7a1800b4.chunk.css.map": "/fashionade-website.github.io/static/css/main.7a1800b4.chunk.css.map",
+    "static/js/2.7a0fefae.chunk.js.LICENSE.txt": "/fashionade-website.github.io/static/js/2.7a0fefae.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/fashionade-website.github.io/static/media/Asset44.b0917716.png",
+    "static/media/Asset_7.49b8f1c7.png": "/fashionade-website.github.io/static/media/Asset_7.49b8f1c7.png",
+    "static/media/company.css": "/fashionade-website.github.io/static/media/company3.cf75fb7e.png",
+    "static/media/crm.47cd12fa.png": "/fashionade-website.github.io/static/media/crm.47cd12fa.png",
+    "static/media/ecommerce.14277e44.png": "/fashionade-website.github.io/static/media/ecommerce.14277e44.png",
+    "static/media/instore.b7b45f2b.png": "/fashionade-website.github.io/static/media/instore.b7b45f2b.png",
+    "static/media/italic.f8158146.png": "/fashionade-website.github.io/static/media/italic.f8158146.png",
+    "static/media/marketing.cff43a24.png": "/fashionade-website.github.io/static/media/marketing.cff43a24.png",
+    "static/media/product_1.e4c27e15.png": "/fashionade-website.github.io/static/media/product_1.e4c27e15.png",
+    "static/media/product_2.2b4c2402.png": "/fashionade-website.github.io/static/media/product_2.2b4c2402.png",
+    "static/media/product_3.976375e5.png": "/fashionade-website.github.io/static/media/product_3.976375e5.png",
+    "static/media/product_4.9edfd8c1.png": "/fashionade-website.github.io/static/media/product_4.9edfd8c1.png",
+    "static/media/product_5.de681362.png": "/fashionade-website.github.io/static/media/product_5.de681362.png",
+    "static/media/product_6.6ba56024.png": "/fashionade-website.github.io/static/media/product_6.6ba56024.png",
+    "static/media/products.css": "/fashionade-website.github.io/static/media/shape2.0eef5214.png",
+    "static/media/login.css": "/fashionade-website.github.io/static/media/welcome.6f22289f.png",
+    "static/media/styleAPI.bad33943.png": "/fashionade-website.github.io/static/media/styleAPI.bad33943.png",
+    "static/media/talktosale_shape.e7c73410.png": "/fashionade-website.github.io/static/media/talktosale_shape.e7c73410.png",
+    "static/media/talktosales.dd52da2e.png": "/fashionade-website.github.io/static/media/talktosales.dd52da2e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d29fa8f.js",
+    "static/js/2.7a0fefae.chunk.js",
+    "static/css/main.7a1800b4.chunk.css",
+    "static/js/main.0598f88f.chunk.js"
+  ]
+}
