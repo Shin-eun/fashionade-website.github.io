@@ -1,0 +1,62 @@
+@import url('https://fonts.google.com/specimen/Comfortaa?query=com&preview.text_type=custom&sidebar.open=true&selection.family=Comfortaa:wght@300;400;500;600;700');
+@import url('https://fonts.google.com/specimen/Spartan?preview.text_type=custom&sidebar.open=true&selection.family=Spartan:wght@200;300;400');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Comfortaa';
+}
+
+li{
+    list-style-type:none;
+}
+
+a:link, a:visited, a:hover, a:focus{
+    text-decoration:none; 
+}
+
+img{
+    width:100%;
+}
+
+button{
+    outline: none;
+}
+
+.App{
+    width:100%;
+}
+
+.btn{
+    border-radius: 20px;
+    color:#fff;
+    background-color:#0BBDC8;
+    text-align: center;
+    cursor: pointer;
+}
+
+.clossBox{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vw;
+    background-color:rgba(0,0,0,0);
+    z-index: 10;
+}
+
+.modalBox{
+    padding:20px 40px;
+    background-color:#fff;
+    min-width:364px;
+    border-radius: 56px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow:0 0 5px 8px rgba(0,0,0,.1);
+    z-index:200;
+}
+
+.modal .clossBox{
+    background-color:rgba(0,0,0,.2);
+}

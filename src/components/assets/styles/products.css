@@ -1,0 +1,160 @@
+#products{
+    width:100%;
+}
+
+.products_setcion1{
+    display:flex;
+    height:90vh;
+}
+
+.products_section1_textArea{
+    position:relative;
+    margin-left:80px;
+    width:30%;
+}
+
+.texts{
+    position:absolute;
+    top:50%;
+    left:0;
+    transform: translateY(-50%);
+}
+
+.title span{
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 69px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    display:block;
+}
+
+.title span.sub{
+    font-size: 36px;
+    margin:20px 0;
+}
+
+.desc span{
+    display:block;
+    font-size: 17px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+}
+
+.products_section1_img{
+    flex:1;
+    background:#fff url('../images/shape1.png') no-repeat bottom right;
+    background-size:auto 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-right:80px;
+}
+
+.products_section1_img .img{
+    margin-left:20px;
+}
+
+.product_1{
+    width:40%;
+    margin-top:9%;
+}
+
+.product_2, .product_3{
+    width:19%;
+    margin-top:80px;
+}
+
+
+.product_3{
+    margin-top:13%;
+}
+
+.products_setcion2{
+    display:flex;
+    background-color:#F3E5D6;
+    height:90vh;
+}
+
+.products_section2_textArea{
+    width:40%;
+}
+
+.products_section2_img{
+    flex:1;
+    background:url('../images/shape2.png') no-repeat bottom left;
+    background-size:auto 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.products_section2_img .img{
+    width:20%;
+    margin-top:12%;
+}
+
+.products_section2_img .img.product_4{
+    width:45%;
+    margin-top:5%;
+}
+
+.products_section2_img .img.product_6{
+    margin-left:80px;
+}
+
+.products_section2_textArea{
+    position:relative;
+    margin-right:80px;
+    width:40%;
+}
+
+.products_section2_textArea .title{
+    margin-top:40%;
+}
+
+.products_setcion3 .title{
+    padding:60px 0 40px;
+}
+
+.products_setcion3 .title span,
+.products_setcion3 .desc span{
+    text-align: center;
+}
+
+.products_setcion3 .mainImg{
+    width:802px;
+    margin:125px auto 170px;
+}
+
+.info_bottom{
+    display:flex;
+    justify-content: space-around;
+    width:80%;
+    margin:0 auto 74px;
+}
+
+.info_bottom .img{
+    height:42px;
+    text-align: center;
+}
+
+.info_bottom img{
+    width:auto;
+    height:100%;
+}
+
+.info_bottom .title{
+    font-family: Spartan;
+    font-weight: bold;
+    font-size: 39px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin:45px auto 5px;
+    text-align: center;
+}
+
+.info_bottom .text{
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+}

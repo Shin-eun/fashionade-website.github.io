@@ -1,0 +1,177 @@
+#header{
+    width:100%;
+    background-color:rgba(0,0,0,0);
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+}
+
+#header:hover{
+    background-color:#fff;
+}
+
+.header_wrap{
+    padding:15px 80px;
+    display:flex;
+    justify-content: space-between;
+}
+
+h1{
+    width:114px;
+}
+
+.header_center{
+    display:flex;
+    flex:1;
+    justify-content: flex-end;
+}
+
+.header_center li{
+    position:relative;
+    width:120px;
+    margin-left:32px;
+    cursor: pointer;
+}
+
+.nav{
+    display:block;
+    width:100%;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 40px;
+    color: #1C1C1C;
+    text-align: center;
+}     
+
+.nav.on{
+    color: #02BDC8;
+}
+
+.header_right{
+    display: flex;
+    margin-left:15vw;
+}
+
+.header_right p{
+    line-height: 40px;
+    margin-left:38px;
+    height:40px;
+}
+
+.header_right a{
+    font-weight: bold;
+    font-size: 12px;
+    color: #1C1C1C;
+}
+
+.talk_to_sales{
+    border-radius: 20px;
+    padding:0 20px;
+    text-align: center;
+    background-color:#F3E5D6;
+}
+
+#header:hover .talk_to_sales{
+    background-color:#000;
+}
+
+#header:hover .talk_to_sales a{
+    color:#fff;
+}
+
+
+.navListBox{
+    background-color:#fff;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 40px 40px;
+    position:absolute;
+    top:40px;
+    left:0;
+    width:100%;
+    padding:10px;
+    z-index: 10;
+}
+
+.navListBox a{
+    display:block;
+    font-family: Spartan;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    color: #B7B7B7;
+    cursor: pointer;
+}
+
+.navListBox a.on{
+    color: #02BDC8;
+}
+
+.header_mobile{display:none}
+
+@media only screen and (max-width: 1350px){
+    .header_right {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .header_right,
+    .header_center li{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 1025px){
+    h1{
+        width:100px;
+    }
+
+    .header_center li{
+        width:90px;
+    }
+
+    .header_right p{
+        margin-left:10px;
+    }
+}
+
+@media only screen and (max-width: 830px){
+    .header_wrap{display:none}
+
+    .header_mobile{
+        display:flex;
+        justify-content: space-between;
+        padding:5px 80px;
+        background-color:#fff;
+    }
+
+    h1{
+        margin-top: 8px;
+    }
+
+    .mobile_navbox{
+        position:absolute;
+        top:69px;
+        left:0;
+        background: #FFFFFF;
+        border-radius: 0px 0px 50px 50px;
+        width:100%;
+        padding:30px 0;
+    }
+
+    .header_center,
+    .header_right{
+        display:block;
+        width:80%;
+        margin:0 auto;
+    }
+
+    .header_center li,
+    .header_right p{
+        text-align: center;
+        width:100%;
+        margin-left:0;
+    }
+}

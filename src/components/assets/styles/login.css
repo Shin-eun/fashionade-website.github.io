@@ -1,0 +1,129 @@
+.login{
+    background:#fff url('../images/welcome.png') no-repeat bottom left;
+    background-size:auto 80%; 
+    height:100vh;
+}
+
+.login.signUp{
+    background:#fff url('../images/signup.png') no-repeat bottom left;
+    background-size:auto 80%; 
+}
+
+.login header{
+    padding:0 80px;
+    height:110px;
+}
+
+.login h1{
+    width:114px;
+    padding:38px 0;
+    height:34px;
+}
+
+.login_from{
+    width:400px;
+    margin-left:50%;
+    position:relative;
+    height:800px;
+}
+
+.login_right{
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:0;
+    transform: translateY(-50%);
+}
+
+.login_right h2{
+    font-family: Comfortaa;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 69px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom:40px;
+}
+
+.descArea.right{
+    text-align: right;
+    font-size:13px;
+}
+
+.descArea.right:hover{
+    text-decoration: underline;
+}
+
+.descArea.center{
+    text-align: center;
+    font-size:13px;
+    font-size:600;
+}
+
+.login .contact_btn{
+    width:100%;
+}
+
+.descArea.center a{
+    color: #0BBDC8; 
+    display:inline-block;
+    margin-left:10px;
+    font-size:13px;
+    font-size:600;
+    margin-top:15px;
+}
+
+.descArea.center a:hover{
+    text-decoration: underline;
+}
+
+.number{
+    display:flex;
+}
+
+.numberInput{
+    margin-left:10px;
+}
+
+.checkbox{
+    display:flex;
+    margin-bottom:42px;
+}
+
+.checkbox input{
+   opacity: 0;
+}
+
+.checkbox input + span{
+    display:block;
+    width:15px;
+    height:15px;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color:#fff;
+    margin-left:-15px;
+}
+
+.checkbox input:checked + span{
+    background:#fff url('../images/icon1.png') no-repeat center center;
+    background-size:100%;
+}
+
+.checkbox label{
+    margin-left:5px;
+    font-family: Comfortaa;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: -0.01em;
+    color: #B7B7B7;
+}
+
+.checkbox a{
+    color: #0BBDC8;
+}
+
+.checkbox a:hover, .checkbox a:focus, .checkbox a:active{
+    text-decoration: underline;
+}

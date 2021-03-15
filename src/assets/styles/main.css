@@ -1,0 +1,363 @@
+#main{
+    width:100%;
+}
+
+.main_setcion1{
+    position:relative;
+    width:100%;
+    height:852px;
+    background-color:#F3E5D6;
+    overflow: hidden;
+}
+
+.main_section1_textArea{
+    position:absolute;
+    top:240px;
+    left:80px;
+    z-index: 1;
+}
+
+.main_setcion1 .title{
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 85px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom:20px;
+}
+
+.main_setcion1 .desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    word-break: keep-all;
+    width:520px;
+}
+
+.main_setcion1 .desc span{
+    display:block;
+    line-height: 33px;
+}
+
+.main_section1_imgArea{
+    position:absolute;
+    right: -86px;
+    bottom: 0;
+    height:100%;
+    width:100%;
+    background:url('../images/Asset44.png') no-repeat bottom right;
+    background-size:auto 100%;
+}
+
+.main_section1_imgArea p{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+.italic{
+    display:block;
+    width:500px;
+    position:absolute;
+    right: 10%;
+    bottom: -5px;
+}
+
+.main_setcion2 .title{
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 85px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    text-align: center;
+    margin-top:20px;
+}
+
+.section2_navs{
+    display:flex;
+    justify-content: space-between;
+    width:624px;
+    margin:10px auto 54px;
+
+}
+
+.section2_nav{
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #B7B7B7;
+    cursor: pointer;
+    line-height:32px;
+    padding:0 3px;
+}
+
+.section2_nav span{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.section2_nav.on span{
+    color: #1C1C1C;
+    border-bottom:2px solid rgba(2, 189, 200, 1)
+}
+
+.main_section2_img{
+    height:733px;
+}
+
+.main_section2_img p{
+    text-align: center;
+}
+
+.main_section2_img i{
+    display:inline-block;
+    height:495px;
+    text-align: center;
+}
+
+.main_section2_img img{
+    width:auto;
+    height:100%;
+}
+
+.main_section2_img span{
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    color: #B7B7B7;
+    display:block;
+    text-align: center;
+    margin-top:20px;
+}
+
+.main_section2_botton{
+    display:flex;
+    justify-content: space-between;
+    padding:0 267px 79px;
+}
+
+.main_section2_botton .main_img{
+    height:34px;
+    text-align: center;
+}
+
+.main_section2_botton img{
+    width:auto;
+    height:100%;
+}
+
+.main_section2_botton .percent{
+    font-family: Spartan;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 85px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin:45px auto 5px;
+    text-align: center;
+}
+
+.main_section2_botton .text{
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.main_setcion3{
+    height:340px;
+    background: linear-gradient(90deg, #02BDC8 0%, #00A3D6 100%);
+}
+
+.main_setcion3 .title{
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 85px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    padding: 78px 0 33px;
+}
+
+.main_setcion3 .radius{
+    font-family: Spartan;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 45px;
+    height:45px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius:20px;
+    border:1px solid #fff;
+    background-color:rgba(0,0,0,0);
+    width: 150px;
+    margin:0 auto;
+}
+
+.mobile{
+    display:none;
+}
+
+.pc{
+    display:block;
+}
+
+@media only screen and (max-width: 1000px){
+    .mobile{
+        display:block;
+    }
+
+    .pc{
+        display:none;
+    }
+
+    .main_setcion1{
+        height:640px;
+        background-size:auto 60%;
+    }
+
+    .main_section1_textArea {
+        top:150px;
+        margin:0 auto;
+        width: 513px;
+    }
+
+    .main_setcion1 .title, 
+    .main_setcion2 .title{
+        font-size:45px;
+        line-height: 61px;
+    }
+
+    .main_section1_imgArea {
+        height: 76%;
+    }
+
+    .italic {
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .main_setcion1{
+        height:640px;
+    }
+
+    .main_section1_textArea {
+        width:100%;
+        left:30px;
+    }
+
+    .main_section1_textArea .desc{
+        width:263px;
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .main_setcion1 .title,
+    .main_setcion2 .title{
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .main_setcion2 .title{
+        margin:20px 0;
+    }
+
+    .main_section1_imgArea {
+        height: 66%;
+    }
+
+    .italic {
+        width: 300px;
+    }
+
+    .section2_navs{
+        display:grid;
+        width:100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section2_nav{
+        margin-bottom:20px;
+    }
+
+    .main_section2_botton{
+        display:block;
+        padding:0;
+        margin-top:130px;
+    }
+
+    .main_section2_botton li{
+        margin-bottom:65px;
+    }
+
+    .main_section2_botton .percent{
+        font-size: 33px;
+        line-height: 85px;
+        margin-top:0;
+    }
+
+    .main_section2_botton  .text{
+        font-size: 12px;
+    }
+
+    .main_section2_img{
+        padding:0 30px;
+        height:auto;
+    }
+
+    .main_section2_img i{
+        height:auto;
+    }
+
+    .main_section2_img img {
+        width:100%;
+        height:auto;
+    }
+
+    .main_setcion3 .title{
+        font-size: 33px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 468px){
+    .main_section1_textArea {
+        top: 105px;
+    }
+
+    .main_section1_imgArea {
+        right: 0;
+        width: 100%;
+        height:74%;
+        background-size: auto 91%;
+        background-position: 55px 42px;
+    }
+
+    .italic {
+        width: 200px;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+    .main_section2_img span{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .section2_nav span{
+        font-size: 12px;
+    }
+
+    .main_setcion2 .title{
+        font-size: 30px;
+    }
+
+    .main_setcion3 .title{
+        font-size: 22px;
+    }
+}

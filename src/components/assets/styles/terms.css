@@ -1,0 +1,55 @@
+.terms{
+    padding:80px;
+}
+
+.term_title{
+    margin-bottom:98px;
+    text-align: center;
+}
+
+.terms h2{
+    font-family: Comfortaa;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    margin-bottom:20px;
+}
+
+.terms .sub{
+    font-family: Comfortaa;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #B7B7B7;
+}
+
+.info p{
+    font-family: Spartan;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    color: #1C1C1C;
+    margin-bottom:20px;
+}
+
+.info h3{
+    font-family: Spartan;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    color: #1C1C1C;
+}
+
+.more_btn{
+    cursor: pointer;
+    font-family: Comfortaa;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    color: #0BBDC8;
+}

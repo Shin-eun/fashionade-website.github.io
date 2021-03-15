@@ -1,0 +1,160 @@
+.datasetsDetail{
+    width:70%;
+    margin:150px auto;
+}
+
+.datasetsDetail_title h2{
+    font-family: Comfortaa;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    margin-bottom:15px;
+}
+
+.datasetsDetail_title p{
+    text-align: center;
+}
+
+.datasetsDetail_img{
+    /* width:80%; */
+    width:730px;
+    padding-bottom:70%;
+    border-radius: 60px;
+    overflow: hidden;
+    position:relative;
+    margin:37px auto;
+}
+
+.datasetsDetail_center img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.datasetsDetail_center .btnArea{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.2);
+    transition:all 0.3s;
+    opacity: 0;
+}
+
+.datasetsDetail_center .btn{
+    width:150px;
+    line-height:40px;
+    font-size: 12px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.datasetsDetail_img:hover .btnArea{
+    opacity: 1;
+}
+
+.datasetsDetail_center .text{
+    font-family: Spartan;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;             
+    align-items: center;
+    color: #280E0E;
+    word-break: keep-all;
+    width:800px;
+    margin:0 auto;
+}
+
+.datasetsDetail_more h3{
+    font-family: Comfortaa;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    margin:106px auto 39px;
+}
+
+.datasetsDetail .lists{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+} 
+
+.datasetsDetail .list{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 38px rgba(0, 0, 0, 0.1);
+    border-radius: 60px;
+    overflow: hidden;
+    transition:all 0.2s;
+    position:relative;
+    top:0;
+    width:40%;
+    cursor: pointer;
+}
+
+.datasetsDetail .list:hover{
+    top:-10px;
+}
+
+.more_img{
+    position: relative;
+    padding-bottom:100%;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+.more_img img{
+    display:block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.datasetsDetail .list_text{
+    padding:28px 36px 22px;
+}
+
+.datasetsDetail .list_title{
+    font-family: Spartan;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    color: #280E0E;
+    text-align: center;
+}
+
+.datasetsDetail .list_type{
+    text-align: center;
+    margin:20px 0;
+}
+
+.datasetsDetail .cate{
+    font-family: Spartan;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #0BBDC8;
+}
+
+.datasetsDetail .cate:after{
+    display:inline-block;
+    content: "";
+    width:1px;
+    height:8px;
+    margin:3px 10px 0;
+    background-color:rgb(175, 175, 175);
+}
+
+.datasetsDetail .cate:last-child:after{
+    display:none;
+}
